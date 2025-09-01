@@ -1,0 +1,11 @@
+﻿name: 🐞 Bug 报告
+description: 一般缺陷
+title: "[BUG] <简述>"
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: 复现步骤
+  - type: textarea
+    attributes:
+      label: 期望结果

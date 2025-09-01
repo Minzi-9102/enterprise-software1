@@ -1,0 +1,14 @@
+﻿name: 🚨 故障工单
+description: 线上事故
+title: "[INCIDENT] <简述>"
+labels: ["incident"]
+body:
+  - type: input
+    attributes:
+      label: 发现时间
+  - type: textarea
+    attributes:
+      label: 故障现象
+  - type: textarea
+    attributes:
+      label: 影响范围
